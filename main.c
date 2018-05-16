@@ -9,7 +9,7 @@ int main() {
 		sum=sum+add;
 		
 	}
-	printf("sum=%d",sum);//顯示總數 
+	printf("sum=%d",sum);//顯示出總數 
 	 
 
 }
