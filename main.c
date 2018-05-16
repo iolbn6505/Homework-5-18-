@@ -3,13 +3,13 @@
 
 
 int main() {
-	int a=0,b;
-	for(b=0;b<100;b++)
+	int sum=0,add;
+	for(add=0;add<100;add++)
 	{
-		a=a+b;
+		sum=sum+add;
 		
 	}
-	printf("a=%d",a);
+	printf("sum=%d",sum);
 	 
 
 }
