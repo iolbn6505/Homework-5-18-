@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
+int Summary(int sum,int endpoint);
 int main() {
-	int sum=0,add; //設定兩個變數 
-	for(add=0;add<100;add++) //一加到九十九
-	{
-		sum=sum+add;
-		
-	}
-	printf("sum=%d",sum);//顯示出總數 
-	 
-
+	printf("sum=%d",Summary(0,10));
 }
